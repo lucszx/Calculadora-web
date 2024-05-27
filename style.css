@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fundo{
+     background-image: linear-gradient(45deg, black, darkgreen);
+     height: 100vh;
+     color: aliceblue;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+}
+.calculadora{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 35px;
+    padding: 15px;
+    
+}
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 30px ;
+    border: none;
+    color: aliceblue;
+}
+.botao:hover{
+    background-color: black;
+}
+#resultado{
+    background-color: DarkSlateGrey;
+    width: 207px;
+    height: 100px;
+    margin: 5px;
+    font-size: 60px;
+    color: #fff;
+    text-align: right;
+    padding: 5px;
+
+}
+#corC{
+    background-color: ForestGreen;
+}
+#corApagar{
+    background-color: RoyalBlue;
+}
+#corMult{
+    background-color: RoyalBlue;
+}
+#corDivid{
+    background-color: RoyalBlue;
+}
+#corSub{
+    background-color: RoyalBlue;
+}
+#corSom{
+    background-color: RoyalBlue;
+}
+#corIgual{
+    background-color: RoyalBlue;
+}
+
